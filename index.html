@@ -370,7 +370,7 @@
 
 <div class="wrapper">
   <div class="top-bar" id="topBar" style="display:none">
-    <div class="logo">📝 Контроль</div>
+    <div class="logo">Вероятность и Статистика</div>
     <div class="timer-box" id="timerBox">
       <span class="timer-icon">⏱</span>
       <span id="timerDisplay">20:00</span>
@@ -456,13 +456,14 @@
 // =====================
 const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyyMxyj0L5_UWuAnzxOB--Vvh3zoxUWn_zZtWHj-9R72ByaEjxtrZN44183TIevBiHk/exec';
 
-// Correct answers indexed by task (0-3) then variant (0-3)
+// Correct answers  [var1, var2, var3, var4] ==========================================
 const CORRECT_ANSWERS = [
-  [0.5,   0.3,    0.5,    0.5   ],
-  [0.096, 0.75,   0.9409, 0.87  ],
-  [9,     30.5,   3,      3750  ],
-  [11,    -28,    18,     24    ]
+  [11.5, 11.5, 11.5, 11.5],
+  [84, 30, 50, 8],
+  [2413, 123, 132,123],
+  [-3, -3, -2.5, 5]
 ];
+// Correct answers ==========================================
 
 // =====================
 // STATE
